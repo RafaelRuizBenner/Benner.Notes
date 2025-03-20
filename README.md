@@ -30,3 +30,24 @@ Existem dois tipos de integração front-back com views:
 * **benner (20)** (informações parciais)
 * **k9 (40)** (peculiares do cliente; feito pela Benner)
 * **k (50)**(peculiares do cliente; feito pelo Cliente)
+## AG [Técnico]
+### Bases Desenvolvimento Kernel SQL
+* **DES_AG_RELANT [hoje: 3.62.0]:** duas versões atrás.
+* **DES_AG_SQL [hoje: 3.63.0]:** uma versão atrás.
+* **DESENV_AG_SQL [hoje: 3.64.0]:** versão corrente.
+### Ferramentas
+* **BSVersion:** Versionador com todos artefatos, ddl, tarefas, exe, ...
+  * **Bloqueio:** Trava um artefato para alterações.
+  * **Checkin:** Desbloqueia um artefato.
+  * **Checkout:** Baixa um artefato.
+* **SPCOOKER:** Criação de procedure SQL.
+* **BUILDER:** Criador de sistemas da Benner.
+  * **Handler:** Chave primária.
+### Configuração
+Primeira vez que instalar uma base, sempre pelo installer do CS \[No Gorilla\]
+E só então, Aplicativo *Selecionador Sistema*
+* **Runner:** Só abre.
+* **Installer:** Atualiza.
+### Práticas
+* **Nas bases de desenvolvimento:** usar com usuário (NOME | SENHA)
+* **Nas bases de suporte:** usar a padrão (sysdba | sup01)
