@@ -54,6 +54,8 @@ Existem quatro tipos de integração front-back com views:
   * *O WES se utiliza dele para reduzir a carga de requisições, enviando para o BTL rodá-las em segundo plano*
 * **AOL \[Usado no Server Manager\]:** Atualização de sistemas benner (para desenvolvimento, mas principalmente produção)
   * *Por meio de ddls, permite atualizações customizadas para cada cliente*
+* **Integrator:** Garante a integridade das tabelas, tal qual a permissão de usuários a certas funções administrativas.
+  * *Suas mensagens estão ligadas à serviços (Inclusão, Alteração, Exclusão, Validação, ...)*
 ### Configuração
 Primeira vez que instalar uma base, sempre pelo installer do CS \[No Gorilla\]
 E só então, o Aplicativo *Selecionador Sistema*
