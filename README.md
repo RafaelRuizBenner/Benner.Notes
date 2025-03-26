@@ -1,9 +1,10 @@
 # Benner Saúde
 ### Stakeholders
-Existem quatro classes principais de stakeholders:
+Existem cinco classes principais de stakeholders:
 * **Operadoras** (proprietárias dos planos. *eg Unimed*)
 * **Prestadores** (os hospitais em si. *eg Hospital São Caetano*)
 * **Beneficiários** (os usuários do plano)
+* **ANS** (Agência Nacional de Saúde)
 * **Colaborador Benner**
 ## A Equipe
 * **Desenvolvimento:** Equipe responsável pela criação de features e melhorias nos sistemas existentes.
@@ -64,3 +65,5 @@ E só então, o Aplicativo *Selecionador Sistema*
 ### Práticas
 * **Nas bases de desenvolvimento:** usar com usuário (NOME | SENHA)
 * **Nas bases de suporte:** usar a padrão (sysdba | sup01)
+### Observações
+* **ANS:** A Agência Nacional de Saúde requisita dados sobre beneficiários, prestadores, faturamento, entre outros. O Sistema AG, portanto, é responsável por gerar os arquivos pedidos para as *Operadoras* enviarem à ANS.
