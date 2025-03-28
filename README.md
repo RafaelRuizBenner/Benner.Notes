@@ -50,7 +50,7 @@ Existem quatro tipos de integração front-back com views:
   * **Handler:** Chave primária (todos índices e relações são automatizadas pelo Builder).
 * **RUNNER:** Criador de aplicações desktop.
 * **WES:** Criador de aplicações web.
-  * *Diferente do Runner, o Wes possui BProvider (para formulários e algumas persistências, fica acoplado)*
+  * *Diferente do Runner, o Wes possui BProvider (para formulários e algumas persistências)*
 * **BTL:** Processamento de Messageria em segundo plano.
   * *O WES se utiliza dele para reduzir a carga de requisições, enviando para o BTL rodá-las em segundo plano*
 * **AOL \[Usado no Server Manager\]:** Atualização de sistemas benner (para desenvolvimento, mas principalmente produção)
