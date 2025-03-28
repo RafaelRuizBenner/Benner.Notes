@@ -69,5 +69,6 @@ E só então, o Aplicativo *Selecionador Sistema*
 * **ANS:** A Agência Nacional de Saúde requisita dados sobre beneficiários, prestadores, faturamento, entre outros. O Sistema AG, portanto, é responsável por gerar os arquivos pedidos para as *Operadoras* enviarem à ANS.
 ## Notas Especializadas:
 * [Domínio de Saúde](/saude.md)
+* [Fluxo SMS](/sms.md)
 * [Builder](/builder.md)
 * [WES](/wes.md)
